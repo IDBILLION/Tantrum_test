@@ -1,0 +1,186 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightskyblue;
+}
+
+.nav li {
+    display: inline;
+}
+
+.enter:hover {
+    color: yellowgreen;
+}
+
+a {
+    padding-left: 30px;
+    color: black;
+}
+
+.center {
+    padding: 20px 40px;
+    margin: 20px 40px;
+    margin-bottom: 10rem;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    color: cornflowerblue;
+}
+
+.testing {
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/19/18/46/driveway-3240834_640.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.address {
+    width: 30%;
+    height: 3rem;
+}
+
+.Border-box {
+    display: inline block;
+    background-color: purple;
+    border: solid;
+    margin-bottom: 5rem;
+    border-radius: 3rem;
+    width: 300px;
+    margin-left: 33rem;
+}
+
+.Login-password {
+    margin-bottom: 1rem;
+}
+
+#password {
+    margin-bottom: 1rem;
+}
+
+.Login-email {
+    margin-bottom: 1rem;
+}
+
+.Username,
+{
+    margin-bottom: 1em;
+}
+
+.Email {
+    margin-top: 1em;
+}
+
+.Phone {
+    margin-top: 1em;
+}
+
+.Password {
+    margin-top: 1em;
+}
+
+.Submit {
+    margin-top: 1em;
+    cursor: progress;
+}
+
+.checkbox {
+    margin-bottom: 1em;
+}
+
+. .Username,
+.Submit,
+.Password,
+.Phone,
+.Email,
+.checkbox {
+    background-color: bisque;
+    font-weight: bold;
+    font-size: large;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.signup,
+.home {
+    display: inline-block;
+}
+
+.signup {
+    text-align: right;
+    width: 15%;
+    cursor: pointer;
+    background-color: violet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.home {
+    text-align: left;
+    width: 80%;
+}
+
+.top {
+    text-align: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 0.5s, height 0.5s, background-color 0.5s;
+}
+
+.box:hover {
+    width: 500px;
+    background-color: red;
+    height: 300px;
+}
+
+@keyframes anything {
+    0% {
+        left: 0%;
+        top: 0;
+        background-color: red;
+    }
+    25% {
+        left: 100px;
+        top: 0;
+        background-color: blue;
+    }
+    50% {
+        left: 100px;
+        top 100px;
+        background-color: green;
+    }
+    75% {
+        left: 0;
+        top: 100px;
+        background-color: yellow;
+    }
+    100% {
+        left: 0px;
+        0;
+        background-color: red
+    }
+}
+
+.animated-box {
+    position: relative;
+    height: 80px;
+    width: 40px;
+    animation: anything 4s infinite;
+    border-radius: 100%;
+    margin: 50px;
+}
